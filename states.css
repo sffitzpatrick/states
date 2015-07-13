@@ -1,0 +1,20 @@
+#map {
+  max-width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: -215px;
+}
+
+#map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#map svg path {
+  cursor: pointer;
+}
+
+#map svg path:hover {
+  fill: #999999;
+}
